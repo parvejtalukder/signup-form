@@ -18,6 +18,44 @@
     <br>
     <label for="pass">Password:</label>
     <input type="password" id="pass" name="userpass" placeholder="Enter your password">
-
+    <br>
+    <label for="phone">Phone:</label>
+    <select name="code" required>
+    <option value="+880">+880</option>
+    <option value="+997">+997</option>
+    </select>
+    <input type="text" id="phone" name="userphone" placeholder="123456789" required> 
+    <br> 
+    <label for="country">Country:</label> 
+    <select>
+        <option value="Bangladesh">Bangladesh</option>
+        <option value="India">India</option>
+        <option value="Nepal">Nepal</option>
+    </select>
+    <br>
+    <label for="gender">Gender:</label>
+    <input type="radio" id="gender" name="gender"> Male
+    <input type="radio" id="gender" name="gender"> Female
+    <input type="radio" id="gender" name="gender"> Other
+    <br>
+    <label for="bod">Date of Birth:</label>
+    <input type="date" id="bod" name="userbod">
+    <br>
+    <label for="time">Time:</label>
+    <input type="time" id="time" name="usertime"> <br>
+    <label for="color">Color:</label>
+    <input type="color" id="color" name="usercolor">
+    <br>
+    <label for="photo">Your Photo:</label>
+    <input type="file" name="image" id="photo" placeholder="select">
+    <br>
+    <input type="checkbox" id="vh" name="vh"> 
+    <label for="vh">I Have a Motorbike</label>
+    <input type="checkbox" id="vh1" name="vh">
+    <label for="vh2">I Have a Bycycle</label> <br>
+    <textarea name="comment" cols="30" rows="10" id="comment" placeholder="Enter your comment here"></textarea>
+    <br>
+    <input type="submit" value="send">
+    <input type="reset" value="reset">
 </body>
 </html>
